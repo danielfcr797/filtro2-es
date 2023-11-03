@@ -3,13 +3,14 @@
     padding: 0px ;
     font-family: Tahoma, sans-serif;
 }
-
+/* DANIEL SIN EDITAR 19.29*/
 /*
     azul1 : #195f6b
     azulclaro: #16bac6
     gris: #eff0f4
     amarillo: #fdc161
     negro: #112025
+    newAzul: #4697b4;
 */
 
 
@@ -26,6 +27,7 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+    box-shadow: 0px 0px 9px 0px gray;
 } 
 .cont_main > .cont_header > .cont_info {
     display: flex;
@@ -42,6 +44,7 @@
     padding: 6px 0px;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .cont_main > .cont_header > .cont_info > .bar_info > .texto {
@@ -92,7 +95,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #16bac6;
+    background-color: #4697b4;;
     padding: 20px 40px;
 }
 
@@ -102,8 +105,12 @@
     position: absolute;
     top: 50px;
 }
+.cont_main > .cont_header > .header > .cont_logo > a {
+    display: flex;
+    align-items: center;
+}
 
-.cont_main > .cont_header > .header > .cont_logo > img {
+.cont_main > .cont_header > .header > .cont_logo > a  > img {
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -111,7 +118,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-.cont_main > .cont_header > .header > .cont_logo > img:hover {
+.cont_main > .cont_header > .header > .cont_logo > a  > img:hover {
     border: solid 3px #112025;
 
 }
@@ -130,6 +137,10 @@
     border-radius: 100px;
     justify-content: space-between;
     padding-right: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.cont_main > .cont_header > .header > .cont_section_Search > .search:hover {
+    box-shadow: 0px 0px  9px 0px gray;
 }
 
 .cont_main > .cont_header > .header > .cont_section_Search > .search > input {
@@ -169,11 +180,11 @@
 }
 .cont_main > .cont_header > .header > .cont_sesion > .login > button {
     width: auto;
-    background-color: #16bac6;
+    background-color: #eff0f4;
+    color: #195f6b;
     border: none;
     padding: 8px 15px;
     border-radius: 50px;
-    color: white;
     font-weight: 600;
     font-size: 13px;
     cursor: pointer;
@@ -182,10 +193,10 @@
 
 }
 
-.cont_main > .cont_header > .header > .cont_sesion > .login > button:hover {
+/*.cont_main > .cont_header > .header > .cont_sesion > .login > button:hover {
     border: solid 2px #112025;
     color: #112025;
-}
+}*/
 
 .cont_main > .cont_header > .header > .cont_sesion > .register {
     display: flex;
@@ -197,11 +208,11 @@
 
 .cont_main > .cont_header > .header > .cont_sesion > .register  > button {
     width: auto;
-    background-color: #16bac6;
+    background-color: #eff0f4;
+    color: #195f6b;
     border: none;
     padding: 8px 15px;
     border-radius: 50px;
-    color: white;
     font-weight: 600;
     font-size: 13px;
     cursor: pointer;
@@ -209,10 +220,10 @@
     border: solid 2px #eff0f4;
 }
 
-.cont_main > .cont_header > .header > .cont_sesion > .register > button:hover {
+/*.cont_main > .cont_header > .header > .cont_sesion > .register > button:hover {
     border: solid 2px #112025;
     color: #112025;
-}
+}*/
 
 .cont_main > .cont_header > .header > .cont_sesion > .icons {
     display: flex;
@@ -322,11 +333,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 250px;
+}
+
+.cont_main > .cont_body > .cont_main_carousel > .carousel > .carousel-inner > .carousel-item > .custom_carousel_item > a > .cont_categoria:hover > img {
+    box-shadow: 0px 0px 9px 0px gray;
 }
 
 .cont_main > .cont_body > .cont_main_carousel > .carousel > .carousel-inner > .carousel-item > .custom_carousel_item > a > .cont_categoria > img{
-    width: 100%;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .cont_main > .cont_body > .cont_main_carousel > .carousel > .carousel-inner > .carousel-item > .custom_carousel_item > a > .cont_categoria > h4{
@@ -335,6 +354,11 @@
     color: #112025;
     outline: none;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    margin: 15px 0px 0px 0px;
+}
+.cont_main > .cont_body > .cont_main_carousel > .carousel > .carousel-inner > .carousel-item > .custom_carousel_item > a > .cont_categoria:hover > h4 {
+    font-size: 25px;
 }
 
 .cont_main > .cont_body > .section_information {
