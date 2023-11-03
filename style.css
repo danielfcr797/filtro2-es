@@ -17,7 +17,7 @@
 .cont_main{
     width: 100%;
     background-color: transparent;
-    margin-bottom: 280px;
+    margin-bottom: none;
 }
 
 .cont_main > .cont_header {
@@ -703,62 +703,106 @@
 
 
 /*----------------------STYLOS FOOTER ------------------------------------------------------------*/
-.cont_main > .flutter > .flutter_content {
+.cont_main > .footer > .footer_content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.cont_main > .flutter > .flutter_content > .flutter_content_up {
-    width: 95%;
-    height: 70%;
+.cont_main > .footer > .footer_content > .footer_content_up {
+    width: 90%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: green;
-    border-bottom: 1px solid #252311 ;
+    border-bottom: 1px solid gray ;
 }
 
-.cont_main > .flutter > .flutter_content > .flutter_content_up > .flutter_colunm {
+.cont_main > .footer > .footer_content > .footer_content_up > .footer_colunm {
     font-size: 15px;
     margin: 2%;
     text-align: justify;
 }
 
-.cont_main > .flutter > .flutter_content > .flutter_content_up > .flutter_colunm > .floo_title {
+.cont_main > .footer > .footer_content > .footer_content_up > .footer_colunm > .floo_title {
     font-size: 17px;
     margin-bottom: 10%;
     display: flex;
     align-items: center;
-
-    
 }
 
-.cont_main > .flutter > .flutter_content > .flutter_content_up > .flutter_colunm > .floo_title span {
+.cont_main > .footer > .footer_content > .footer_content_up > .footer_colunm > .floo_title span {
     margin-right: 5%;
 }
 
-.cont_main > .flutter > .flutter_content > .flutter_content_down {
+.cont_main > .footer > .footer_content > .footer_content_down {
     width: 100%;
-    height: 100px;
-    margin: 1%;
-    background: gray;
+    height: 130px;
+    margin: 0.5%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
-.cont_main > .flutter > .flutter_content > .flutter_content_down > .flooter_logo{
-    width: auto;
+.cont_main > .footer > .footer_content > .footer_content_down > .flooter_logo{
+    width: 20%;
     height: 100%;
-    margin-left: 10%;
-    background: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cont_main > .flutter > .flutter_content > .flutter_content_down > .flooter_logo > img{
-    width: 90%;
-    height: 90%;
+.cont_main > .footer > .footer_content > .footer_content_down > .flooter_logo > .logo{
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin: 5%;
+}
 
+.cont_main > .footer > .footer_content > .footer_content_down > .flooter_logo > .slogan {
+    width: 190px;
+    margin: 3%;
+    border-radius: 20px;
+}
+
+.cont_main > .footer > .footer_content > .footer_content_down > .content_imgsm {
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont_main > .footer > .footer_content > .footer_content_down > .content_imgsm > span {
+    font-size: 35px;
 
 }
+
+.cont_main > .content_promocion {
+    width: 99%;
+    height: 370px;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fdc161;
+}
+
+.cont_main > .content_promocion > img{
+    height: 100%;
+    margin-left: 170px;
+    margin-right: 2%;
+
+}
+
+.cont_main > .content_promocion > .info_promocion {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont_main > .content_promocion > .info_promocion > h3 {
+    width: 700px;
+    font-size: 35px;
+    font-weight: 500;
+}
+/*.cont_main > .content_promocion > inf */
