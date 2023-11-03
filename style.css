@@ -884,7 +884,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: red;
 }
 .cont_main > .flutter > .flutter_content > .flutter_content_up {
     width: 95%;
@@ -892,7 +891,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: green;
     border-bottom: 1px solid #252311 ;
 }
 
@@ -917,9 +915,8 @@
     width: 100%;
     height: 130px;
     margin: 0.5%;
-    background: gray;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -928,11 +925,13 @@
     height: 100%;
     margin-left: 10%;
     background: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cont_main > .flutter > .flutter_content > .flutter_content_down > .flooter_logo > img{
-    width: 80%;
+    width: 85%;
     height: 80%;
     border-radius: 50%;
-    margin: 5%;
 }
