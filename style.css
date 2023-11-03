@@ -703,7 +703,7 @@
 
 
 /*----------------------STYLOS FOOTER ------------------------------------------------------------*/
-.cont_main > .flutter > .flutter_content {
+.cont_main > .footer > .footer_content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -777,20 +777,32 @@
 }
 
 .cont_main > .content_promocion {
-    width: 100%;
+    width: 99%;
     height: 370px;
     margin-right: 2%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     background: #fdc161;
 }
 
 .cont_main > .content_promocion > img{
     height: 100%;
-    margin-left: 10%;
+    margin-left: 170px;
+    margin-right: 2%;
 
 }
 
+.cont_main > .content_promocion > .info_promocion {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont_main > .content_promocion > .info_promocion > h3 {
+    width: 700px;
+    font-size: 35px;
+    font-weight: 500;
+}
 /*.cont_main > .content_promocion > inf */
