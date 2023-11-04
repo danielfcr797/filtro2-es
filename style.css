@@ -707,20 +707,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .cont_main > .footer > .footer_content > .footer_content_up {
     width: 90%;
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid gray ;
+    position: relative;
+    bottom: 15px;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+
+    
 }
 
 .cont_main > .footer > .footer_content > .footer_content_up > .footer_colunm {
+    width: 20%;
     font-size: 15px;
     margin: 2%;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_main > .footer > .footer_content > .footer_content_up > .footer_colunm a {
+    color: #000000;
+    margin: 5px;
 }
 
 .cont_main > .footer > .footer_content > .footer_content_up > .footer_colunm > .floo_title {
@@ -736,7 +750,7 @@
 
 .cont_main > .footer > .footer_content > .footer_content_down {
     width: 100%;
-    height: 130px;
+    height: 120px;
     margin: 0.5%;
     display: flex;
     justify-content:space-around;
@@ -783,7 +797,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #fdc161;
+    background: #f0b65a;
 }
 
 .cont_main > .content_promocion > img{
@@ -803,6 +817,45 @@
 .cont_main > .content_promocion > .info_promocion > h3 {
     width: 700px;
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 800;
 }
+
+.cont_main > .content_promocion > .info_promocion > input {
+  width: 500px;
+  height: 50px;
+  margin: 4px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+  border: none;
+}
+
+.cont_main > .content_promocion > .info_promocion > a:hover{
+    color: #000000;
+    border-color: black;
+
+}
+
+.cont_main > .content_promocion > .info_promocion > a {
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px white;
+    min-width: 172px;
+    transition: all 0.5s ease-in-out;
+    margin: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: none;
+  }
 /*.cont_main > .content_promocion > inf */
