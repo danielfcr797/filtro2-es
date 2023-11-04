@@ -81,6 +81,24 @@
     cursor: pointer;
 }
 
+.cont_main > .cont_header > .cont_info > .bar_links > .item_link > a {
+    outline: none;
+    text-decoration: none;
+    color: #112025;
+    display: flex;
+
+}
+
+.cont_main > .cont_header > .cont_info > .bar_links > .item_link > a > h5 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.cont_main > .cont_header > .cont_info > .bar_links > .item_link > a > .icon_links {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
 .cont_main > .cont_header > .cont_info > .bar_links > .item_link > h5 {
     margin: 0px;
     font-size: 12px;
